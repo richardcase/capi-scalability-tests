@@ -1,4 +1,3 @@
-
 resource "helm_release" "prometheus-stack" {
   name             = "prometheus"
   namespace        = "observability"
